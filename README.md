@@ -119,14 +119,14 @@ python main.py
 
 | Button | Action |
 |---|---|
-| 💰 **دارایی** (Assets) | View your current resources and military units |
-| 🛠️ **ارتقا** (Upgrade) | Upgrade buildings and factories |
-| 🙌 **بیانیه** (Statement) | Publish a statement to the game channel |
-| ✉️ **پیام خصوصی** (Private Message) | Send a private message to another group |
-| 📜 **معاهده** (Treaty) | Create, send, or confirm treaties with other players |
-| ⚔️ **لشکرکشی** (Military Campaign) | Plan and record attack details |
-| 🔨 **آپ هفتگی** (Weekly Update) | Collect weekly factory outputs *(admin only)* |
-| 🛠️ **تنظیم دارایی** (Set Assets) | Adjust asset values *(admin only)* |
+| 💰 **Assets** | View your current resources and military units |
+| 🛠️ **Upgrade** | Upgrade buildings and factories |
+| 🙌 **Statement** | Publish a statement to the game channel |
+| ✉️ **Private Message** | Send a private message to another group |
+| 📜 **Treaty** | Create, send, or confirm treaties with other players |
+| ⚔️ **Military Campaign** | Plan and record attack details |
+| 🔨 **Weekly Update** | Collect weekly factory outputs *(admin only)* |
+| 🛠️ **Set Assets** | Adjust asset values *(admin only)* |
 
 ---
 

@@ -119,14 +119,14 @@ python main.py
 
 | Buton | İşlev |
 |---|---|
-| 💰 **دارایی** (Varlıklar) | Mevcut kaynaklarınızı ve askeri birimlerinizi görüntüleyin |
-| 🛠️ **ارتقا** (Yükseltme) | Binaları ve fabrikaları yükseltin |
-| 🙌 **بیانیه** (Bildiri) | Oyun kanalına bir bildiri yayınlayın |
-| ✉️ **پیام خصوصی** (Özel Mesaj) | Başka bir gruba özel mesaj gönderin |
-| 📜 **معاهده** (Antlaşma) | Diğer oyuncularla antlaşma oluşturun, gönderin veya onaylayın |
-| ⚔️ **لشکرکشی** (Askeri Sefer) | Saldırı detaylarını planlayın ve kaydedin |
-| 🔨 **آپ هفتگی** (Haftalık Güncelleme) | Haftalık fabrika çıktılarını toplayın *(yalnızca yönetici)* |
-| 🛠️ **تنظیم دارایی** (Varlık Ayarı) | Varlık değerlerini ayarlayın *(yalnızca yönetici)* |
+| 💰 **Varlıklar** | Mevcut kaynaklarınızı ve askeri birimlerinizi görüntüleyin |
+| 🛠️ **Yükseltme** | Binaları ve fabrikaları yükseltin |
+| 🙌 **Bildiri** | Oyun kanalına bir bildiri yayınlayın |
+| ✉️ **Özel Mesaj** | Başka bir gruba özel mesaj gönderin |
+| 📜 **Antlaşma** | Diğer oyuncularla antlaşma oluşturun, gönderin veya onaylayın |
+| ⚔️ **Askeri Sefer** | Saldırı detaylarını planlayın ve kaydedin |
+| 🔨 **Haftalık Güncelleme** | Haftalık fabrika çıktılarını toplayın *(yalnızca yönetici)* |
+| 🛠️ **Varlık Ayarı** | Varlık değerlerini ayarlayın *(yalnızca yönetici)* |
 
 ---
 
