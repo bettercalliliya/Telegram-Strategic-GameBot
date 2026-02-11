@@ -1,5 +1,7 @@
 # 🏰 Telegram Strategic GameBot
 
+🌐 **[فارسی](README_FA.md)** | **[Türkçe](README_TR.md)** | **English**
+
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.6+](https://img.shields.io/badge/Python-3.6%2B-brightgreen.svg)](https://www.python.org/)
 [![Telegram Bot API](https://img.shields.io/badge/Telegram-Bot%20API-blue.svg?logo=telegram)](https://core.telegram.org/bots/api)
@@ -135,7 +137,9 @@ Telegram-Strategic-GameBot/
 ├── main.py          # Bot logic, handlers, and database setup
 ├── LICENSE          # MIT License
 ├── SECURITY.md      # Security policy
-└── README.md        # Project documentation
+├── README.md        # Project documentation (English)
+├── README_FA.md     # Project documentation (Persian / فارسی)
+└── README_TR.md     # Project documentation (Turkish / Türkçe)
 ```
 
 ---
