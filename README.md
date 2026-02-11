@@ -6,6 +6,8 @@
 [![Python 3.6+](https://img.shields.io/badge/Python-3.6%2B-brightgreen.svg)](https://www.python.org/)
 [![Telegram Bot API](https://img.shields.io/badge/Telegram-Bot%20API-blue.svg?logo=telegram)](https://core.telegram.org/bots/api)
 [![SQLite](https://img.shields.io/badge/Database-SQLite-lightgrey.svg?logo=sqlite)](https://www.sqlite.org/)
+[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink.svg?logo=github-sponsors)](https://github.com/sponsors/iliyadindar)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-%F0%9F%8D%BA-yellow.svg?logo=buy-me-a-coffee)](https://buymeacoffee.com/iliyadindar)
 
 A **multiplayer strategic resource-management game bot** for Telegram groups. Players become lords of their own territory — managing economies, upgrading buildings, training armies, forging treaties, and launching attacks against rival lords — all within Telegram.
 
@@ -26,6 +28,7 @@ A **multiplayer strategic resource-management game bot** for Telegram groups. Pl
 - [Contributing](#-contributing)
 - [License](#-license)
 - [Contact](#-contact)
+- [Support](#-support)
 
 ---
 
@@ -172,6 +175,13 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 - GitHub: [@iliyadindar](https://github.com/iliyadindar)
 
 ---
+
+## 💖 Support
+
+If you find this project useful, please consider supporting the development:
+
+[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor_on_GitHub-%E2%9D%A4-pink.svg?style=for-the-badge&logo=github-sponsors)](https://github.com/sponsors/iliyadindar)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-%F0%9F%8D%BA-yellow.svg?style=for-the-badge&logo=buy-me-a-coffee)](https://buymeacoffee.com/iliyadindar)
 
 <p align="center">
   ⭐ If you find this project useful, please consider giving it a star!

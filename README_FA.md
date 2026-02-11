@@ -8,6 +8,8 @@
 [![Python 3.6+](https://img.shields.io/badge/Python-3.6%2B-brightgreen.svg)](https://www.python.org/)
 [![Telegram Bot API](https://img.shields.io/badge/Telegram-Bot%20API-blue.svg?logo=telegram)](https://core.telegram.org/bots/api)
 [![SQLite](https://img.shields.io/badge/Database-SQLite-lightgrey.svg?logo=sqlite)](https://www.sqlite.org/)
+[![اسپانسر](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink.svg?logo=github-sponsors)](https://github.com/sponsors/iliyadindar)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-%F0%9F%8D%BA-yellow.svg?logo=buy-me-a-coffee)](https://buymeacoffee.com/iliyadindar)
 
 یک **ربات بازی استراتژیک چندنفره مدیریت منابع** برای گروه‌های تلگرام. بازیکنان به عنوان لرد سرزمین خود فعالیت می‌کنند — مدیریت اقتصاد، ارتقای ساختمان‌ها، آموزش ارتش، عقد معاهده و حمله به لردهای رقیب — همه در تلگرام.
 
@@ -28,6 +30,7 @@
 - [مشارکت](#-مشارکت)
 - [مجوز](#-مجوز)
 - [تماس](#-تماس)
+- [حمایت](#-حمایت)
 
 ---
 
@@ -174,6 +177,13 @@ Telegram-Strategic-GameBot/
 - گیت‌هاب: [@iliyadindar](https://github.com/iliyadindar)
 
 ---
+
+## 💖 حمایت
+
+اگر این پروژه برای شما مفید بود، لطفاً از توسعه آن حمایت کنید:
+
+[![اسپانسر در گیت‌هاب](https://img.shields.io/badge/اسپانسر_در_گیت‌هاب-%E2%9D%A4-pink.svg?style=for-the-badge&logo=github-sponsors)](https://github.com/sponsors/iliyadindar)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-%F0%9F%8D%BA-yellow.svg?style=for-the-badge&logo=buy-me-a-coffee)](https://buymeacoffee.com/iliyadindar)
 
 <p align="center">
   ⭐ اگر این پروژه برای شما مفید بود، لطفاً یک ستاره بدهید!
