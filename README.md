@@ -1,83 +1,174 @@
-# Telegram Game Bot
+# 🏰 Telegram Strategic GameBot
 
-This is a Telegram bot designed to manage resources, upgrade buildings, and handle various game functionalities in a group-based game.
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python 3.6+](https://img.shields.io/badge/Python-3.6%2B-brightgreen.svg)](https://www.python.org/)
+[![Telegram Bot API](https://img.shields.io/badge/Telegram-Bot%20API-blue.svg?logo=telegram)](https://core.telegram.org/bots/api)
+[![SQLite](https://img.shields.io/badge/Database-SQLite-lightgrey.svg?logo=sqlite)](https://www.sqlite.org/)
 
-## Features
+A **multiplayer strategic resource-management game bot** for Telegram groups. Players become lords of their own territory — managing economies, upgrading buildings, training armies, forging treaties, and launching attacks against rival lords — all within Telegram.
 
-- **Resource Management**: Manage resources such as money, stones, wood, iron, gold, food, and more.
-- **Building Upgrades**: Upgrade various buildings and factories to increase resource production.
-- **Weekly Updates**: Collect weekly outputs from factories and buildings.
-- **Treaty Management**: Create, send, and confirm treaties between players.
-- **Private Messaging**: Send private messages to groups.
-- **Attack Handling**: Manage and record details of attacks between players.
-- **Admin Controls**: Admins can change asset values and perform weekly updates.
+---
 
-## Getting Started
+## 📑 Table of Contents
+
+- [Features](#-features)
+- [Game Mechanics](#-game-mechanics)
+- [Getting Started](#-getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Configuration](#configuration)
+- [Usage](#-usage)
+  - [Commands](#commands)
+  - [Menu Options](#menu-options)
+- [Project Structure](#-project-structure)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Contact](#-contact)
+
+---
+
+## ✨ Features
+
+| Category | Details |
+|---|---|
+| 🏗️ **Resource Management** | Manage 8 resource types: money, stones, wood, iron, gold, food, meat, and clothes |
+| 🏭 **Building & Factory Upgrades** | Upgrade stone quarries, lumber mills, iron mines, gold mines, farms, animal farms, clothing factories, and banks |
+| ⚔️ **Military System** | Train swordsmen, gunmen, cavalry, special guards, cannons, and naval ships |
+| 📜 **Diplomacy & Treaties** | Create, send, and confirm treaties between players with interactive confirmations |
+| 🔔 **Weekly Production Cycles** | Collect factory and building outputs on a weekly schedule |
+| 💬 **In-Game Communication** | Send private messages between groups and publish statements to channels |
+| 🛡️ **Attack & Defense** | Plan and record military campaigns with detailed attack tracking |
+| 🔧 **Admin Controls** | Adjust asset values and trigger weekly updates |
+
+---
+
+## 🎮 Game Mechanics
+
+### Resources
+
+Players start with a base supply of resources and military units. Upgrade factories and buildings to boost production:
+
+- **Economy**: Money 💰 · Stones 🪨 · Wood 🪵 · Iron ⛏️ · Gold 🥇 · Food 🌾 · Meat 🥩 · Clothes 👕
+- **Military**: Swordsmen ⚔️ · Gunmen 🔫 · Cavalry Swordsmen 🐴 · Cavalry Gunmen 🏇 · Special Guard 🛡️ · Medium Cannons 💣 · Large Cannons 🎯 · Small/Medium/Large Ships 🚢
+
+### Buildings & Factories
+
+Each building can be upgraded through multiple levels. Higher levels produce more resources per weekly cycle:
+
+- Stone Factory · Wood Factory · Iron Factory · Gold Mine
+- Farm · Animal Farm · Clothes Factory · Bank
+- Military camps and shipyards for each unit type
+
+---
+
+## 🚀 Getting Started
 
 ### Prerequisites
 
-- Python 3.6 or higher
-- A Telegram bot token from [BotFather](https://core.telegram.org/bots#botfather)
-- SQLite3
+- **Python** 3.6 or higher
+- A **Telegram Bot Token** from [@BotFather](https://t.me/BotFather)
+- **SQLite3** (included with Python)
 
 ### Installation
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/telegram-game-bot.git
-    cd telegram-game-bot
-    ```
+1. **Clone the repository:**
 
-2. Install the required Python packages:
-    ```bash
-    pip install pyTelegramBotAPI
-    ```
+   ```bash
+   git clone https://github.com/iliyadindar/Telegram-Strategic-GameBot.git
+   cd Telegram-Strategic-GameBot
+   ```
 
-3. Set up your bot token and admin details in the code:
-    ```python
-    API_TOKEN = 'YOUR_TELEGRAM_BOT_API_TOKEN'
-    ADMIN_ID = YOUR_ADMIN_ID
-    CHANNEL_ID = "@your_channel_id"
-    ```
+2. **Install dependencies:**
 
-4. Initialize the database:
-    ```bash
-    sqlite3 game_bot.db < schema.sql
-    ```
+   ```bash
+   pip install pyTelegramBotAPI
+   ```
 
-5. Run the bot:
-    ```bash
-    python main.py
-    ```
+### Configuration
 
-### Usage
+Open `main.py` and update the following values:
 
-- **/setlord**: Register yourself as a lord in the group.
-- **/start**: Start interacting with the bot and access the menu options.
+```python
+API_TOKEN = 'YOUR_TELEGRAM_BOT_API_TOKEN'
+ADMIN_ID = 123456789          # Your Telegram user ID
+CHANNEL_ID = "@your_channel"  # Your Telegram channel username
+```
 
-#### Menu Options
+Then start the bot:
 
-- **💰 دارایی**: View your assets and resources.
-- **🛠️ ارتقا**: Upgrade buildings and factories.
-- **🙌 بیانیه**: Send a statement to the channel.
-- **✉️ پیام خصوصی**: Send a private message to a group.
-- **📜 معاهده**: Manage treaties.
-- **⚔️ لشکرکشی**: Manage and record attack details.
-- **🔨 آپ هفتگی**: Collect weekly outputs (admin only).
-- **🛠️ تنظیم دارایی**: Change asset values (admin only).
+```bash
+python main.py
+```
 
-### Contributing
+> The SQLite database (`game_bot.db`) is created automatically on the first run.
 
-Feel free to submit issues or pull requests. For major changes, please open an issue first to discuss what you would like to change.
+---
 
-### License
+## 📖 Usage
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+### Commands
 
-### Acknowledgements
+| Command | Description |
+|---|---|
+| `/setlord` | Register as a lord in the current group |
+| `/start` | Open the main menu and start playing |
 
-- [pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI)
+### Menu Options
 
-## Contact
+| Button | Action |
+|---|---|
+| 💰 **دارایی** (Assets) | View your current resources and military units |
+| 🛠️ **ارتقا** (Upgrade) | Upgrade buildings and factories |
+| 🙌 **بیانیه** (Statement) | Publish a statement to the game channel |
+| ✉️ **پیام خصوصی** (Private Message) | Send a private message to another group |
+| 📜 **معاهده** (Treaty) | Create, send, or confirm treaties with other players |
+| ⚔️ **لشکرکشی** (Military Campaign) | Plan and record attack details |
+| 🔨 **آپ هفتگی** (Weekly Update) | Collect weekly factory outputs *(admin only)* |
+| 🛠️ **تنظیم دارایی** (Set Assets) | Adjust asset values *(admin only)* |
 
-For any questions or feedback, please contact https://t.me/iliyadindar .
+---
+
+## 📁 Project Structure
+
+```
+Telegram-Strategic-GameBot/
+├── main.py          # Bot logic, handlers, and database setup
+├── LICENSE          # MIT License
+├── SECURITY.md      # Security policy
+└── README.md        # Project documentation
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! To get started:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 📬 Contact
+
+**Iliya Dindar** — Creator & Maintainer
+
+- Telegram: [@iliyadindar](https://t.me/iliyadindar)
+- GitHub: [@iliyadindar](https://github.com/iliyadindar)
+
+---
+
+<p align="center">
+  ⭐ If you find this project useful, please consider giving it a star!
+</p>
